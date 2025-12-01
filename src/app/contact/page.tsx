@@ -11,7 +11,7 @@ export default function ContactPage() {
                         Get in Touch
                     </h1>
                     <p className="text-lg text-blue-100 max-w-2xl mx-auto">
-                        Have questions, suggestions, or just want to say hello? We'd love to hear from you.
+                        Have questions, suggestions, or just want to say hello? We would love to hear from you.
                     </p>
                 </div>
             </div>
@@ -35,12 +35,12 @@ export default function ContactPage() {
                                     <h3 className="text-lg font-semibold text-gray-900">GitHub</h3>
                                     <p className="text-gray-600 mb-2">Check out our code and contributions.</p>
                                     <a
-                                        href="https://github.com/ashuisalluneed"
+                                        href="https://github.com/chetanchauhan64"
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="text-blue-600 hover:text-blue-700 font-medium flex items-center gap-1 group"
                                     >
-                                        github.com/ashuisalluneed
+                                        github.com/chetanchauhan64
                                         <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                                         </svg>
