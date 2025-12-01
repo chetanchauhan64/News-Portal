@@ -68,11 +68,13 @@ This news portal comes with premium, enterprise-level functionalities:
 git clone https://github.com/chetanchauhan64/News-Portal.git
 cd News-Portal
 ```
+---
 
 ### 2️⃣ Install dependencies
 ```bash
 npm install
 ```
+---
 
 ### 3️⃣ Environment Setup:Create a .env.local file:
 ```bash
@@ -82,3 +84,70 @@ cp .env.local.example .env.local
 ```bash
 NEXT_PUBLIC_NEWS_API_KEY=your_api_key
 ```
+---
+
+### 4️⃣ Run Development Server
+```bash
+npm run dev
+```
+### Open in browser:
+👉 http://localhost:3000
+
+### 📂 Project Structure
+```bash
+
+src/
+├── app/                    # Next.js App Router
+│   ├── article/[id]/       # Dynamic Article Pages
+│   ├── category/[slug]/    # Category Listing
+│   ├── newsletter/         # E-Paper Digital Page
+│   ├── profile/            # User Dashboard
+│   ├── saved/              # Saved Articles
+│   ├── search/             # Search Results
+│   └── layout.tsx          # Main Layout (Navbar/Footer)
+│
+├── components/             # Reusable Components
+│   ├── Header.tsx
+│   ├── SideMenu.tsx
+│   ├── ArticleCard.tsx
+│   ├── Footer.tsx
+│   └── VideoPlayer.tsx
+│
+├── lib/                    # Utilities & helpers
+├── services/               # API integrations
+└── types/                  # TypeScript interfaces
+```
+---
+
+### 🧪 Testing
+Run all tests:
+```bash
+npm test
+```
+Run in watch mode:
+```bash
+npm run test:watch
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1.  Fork the project
+2.  Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3.  Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4.  Push to the branch (`git push origin feature/AmazingFeature`)
+5.  Open a Pull Request
+
+---
+
+## 📄 License
+Distributed under the **MIT License**. See `LICENSE` for more information.
+
+---
+
+### 💙 Built with Passion
+
+**Made with ❤️ by Chetan Chauhan**
